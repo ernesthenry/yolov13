@@ -142,5 +142,5 @@ model = YOLO('yolov13{n/s/l/x}.pt')  # Replace with the desired model scale
 model.export(format="engine", half=True)  # or format="onnx"
 ```
 
-**Author:** Ernest Henry  
+**Author:** Ernest Henry
 **GitHub:** github.com/ernesthenry
